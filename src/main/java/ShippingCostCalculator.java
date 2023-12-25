@@ -16,7 +16,8 @@ public class ShippingCostCalculator {
      * @return the total cost of shipping
      */
     public double calculateCost(double weight, String destination, String
-            deliverySpeed) {
+            deliverySpeed){
+
         double cost = 0.0;
 // Determine the base cost by destination
         if ("Local".equalsIgnoreCase(destination)) {

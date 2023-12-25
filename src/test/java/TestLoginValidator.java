@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestLoginValidator {
     LoginValidator loginValidator = new LoginValidator();
 
-    //Test Cases for validateusername method
+    //Test Cases for validate username method
     @Test
     void testUsernameWithValidEmailAddress(){
         boolean result = loginValidator.validateUsername("cetinkayatahafurkan@gmail.com");

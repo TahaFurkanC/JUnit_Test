@@ -28,4 +28,24 @@ public class TestAgeRestrictionValidator {
         boolean result = ageRestrictionValidator.isEligible(64);
         assertTrue(result);
     }
+    @Test
+    void testAgeAtMaximumBoundary(){
+        boolean result = ageRestrictionValidator.isEligible(65);
+        assertTrue(result);
+    }
+    @Test
+    void testAgeJustAboveMax(){
+        boolean result = ageRestrictionValidator.isEligible(66);
+        assertFalse(result);
+    }
+    @Test
+    void testAgeExtremeLow(){
+        boolean result = ageRestrictionValidator.isEligible(0);
+        assertFalse(result);
+    }
+    @Test
+    void testAgeExtremeHigh(){
+        boolean result = ageRestrictionValidator.isEligible(100);
+        assertFalse(result);
+    }
 }
