@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5541b49f-c58b-4897-9f95-4043a0258190" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrderStatusManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestBankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestOrderStatusManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SubscriptionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSubscriptionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShippingCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShippingCostCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestAgeRestrictionValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestAgeRestrictionValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestLoginValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLoginValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestShippingCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestShippingCostCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestBankAccount.testWithdrawFromAccountExceedingBalance">
+  <component name="RunManager" selected="JUnit.TestSubscriptionManager">
     <configuration name="TestBankAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTest" />
       <extension name="coverage">
@@ -76,22 +68,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBankAccount.testDepositNegativeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestBankAccount" />
-      <option name="METHOD_NAME" value="testDepositNegativeAmount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestBankAccount.testWithdrawFromAccountExceedingBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnitTest" />
       <extension name="coverage">
@@ -103,22 +79,6 @@
       <option name="PACKAGE_NAME" value="test.java" />
       <option name="MAIN_CLASS_NAME" value="test.java.TestBankAccount" />
       <option name="METHOD_NAME" value="testWithdrawFromAccountExceedingBalance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBankAccount.testWithdrawFromAccountWithSufficientFunds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestBankAccount" />
-      <option name="METHOD_NAME" value="testWithdrawFromAccountWithSufficientFunds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,13 +100,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSubscriptionManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.TestSubscriptionManager" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSubscriptionManager.testFreeTierEmailNotificationsEnabledAutoRenewal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.TestSubscriptionManager" />
+      <option name="METHOD_NAME" value="testFreeTierEmailNotificationsEnabledAutoRenewal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSubscriptionManager" />
+        <item itemvalue="JUnit.TestSubscriptionManager.testFreeTierEmailNotificationsEnabledAutoRenewal" />
         <item itemvalue="JUnit.TestBankAccount.testWithdrawFromAccountExceedingBalance" />
         <item itemvalue="JUnit.TestBankAccount" />
         <item itemvalue="JUnit.TestBankAccount.testWithdrawNegativeAmount" />
-        <item itemvalue="JUnit.TestBankAccount.testDepositNegativeAmount" />
-        <item itemvalue="JUnit.TestBankAccount.testWithdrawFromAccountWithSufficientFunds" />
       </list>
     </recent_temporary>
   </component>
